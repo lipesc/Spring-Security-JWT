@@ -12,4 +12,5 @@ Implementando uma autenticação e autorização com Spring Security e JWT.
 - [Spring Data JDBC](https://spring.io/projects/spring-data-jdbc)
 - [H2](https://www.h2database.com)
 
-# Como Executar
+# Como
+ Executar
