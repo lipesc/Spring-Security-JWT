@@ -12,5 +12,27 @@ Implementando uma autenticação e autorização com Spring Security e JWT.
 - [Spring Data JDBC](https://spring.io/projects/spring-data-jdbc)
 - [H2](https://www.h2database.com)
 
-# Como
- Executar
+
+inicie a aplicação fazer um post no endpoint /authenticate vai gerar um token jwt com esse token
+um get na rota /private
+
+usando Insomnia:
+
+obter o token JWT
+
+Metodo: POST
+```
+URL: http://localhost:8080/authenticate
+body:
+json
+{
+  "username": "username",
+  "password": "password"
+}
+```
+(GET/private):
+```
+Método: GET
+URL: http://localhost:8080/privado
+Authentication: Bearer Token e cole o token JWT
+```
